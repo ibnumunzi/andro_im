@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IM Apps</string>
+    <string name="red">MERAH</string>
+    <string name="blue">BIRU</string>
+    <string name="green">HIJAU</string>
+    <string name="title_activity_buttom_navigation">ButtomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nomersaya">Telephone</string>
+</resources>

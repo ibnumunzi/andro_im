@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFF">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/gradient_dua">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/profil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130sp"
+            android:layout_marginRight="100sp"
+            android:text="Ibnu Munzi"
+            android:textStyle="normal"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="#E0FFFF"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                android:background="#f0f0f2">
+
+                <Button
+                    android:id="@+id/fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gradient_dua"
+                    android:drawableLeft="@drawable/ic_facebook"
+                    android:onClick="fb"
+                    android:paddingLeft="55dp"
+                    android:paddingRight="50dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:background="#f0f0f2">
+
+                <Button
+                    android:id="@+id/ing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gradient_dua"
+                    android:drawableLeft="@drawable/ic_instagram2"
+                    android:onClick="instagram"
+                    android:paddingLeft="55dp"
+                    android:paddingRight="50dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                android:background="#f0f0f2">
+
+                <Button
+                    android:id="@+id/call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gradient_dua"
+                    android:drawableLeft="@drawable/ic_telephone"
+                    android:paddingLeft="55dp"
+                    android:paddingRight="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:background="#f0f0f2">
+
+                <Button
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gradient_dua"
+                    android:drawableLeft="@drawable/ic_gmail"
+                    android:paddingLeft="55dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="271dp"
+        android:text="FACEBOOK"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="272dp"
+        android:text="INSTAGRAM"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="149dp"
+        android:text="TELEPHONE"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="154dp"
+        android:text="GMAIL"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+</RelativeLayout>
